@@ -45,8 +45,12 @@ window.onload = function() {
 
   // OPCIONAL
 
-  function generateNewCard() {
-    let newCard = document.querySelector("new-card");
-    newCard.style.color = "blue";
-  }
+  // BOTON
+  let btn = document
+    .getElementById("btn-card")
+    .addEventListener("click", window.onload);
+
+  // TIMEOUT
+
+  window.setTimeout(window.onload, 3000);
 };

@@ -28,3 +28,10 @@ body {
   rotate: 180deg;
   margin-left: auto;
 }
+.container {
+  display: flex;
+}
+
+.btn {
+  margin: auto;
+}
