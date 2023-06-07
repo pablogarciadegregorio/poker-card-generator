@@ -1,1 +1,30 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgb(55, 175, 101);
+}
+
+.card {
+  background-color: white;
+
+  display: flex;
+  width: 300px;
+  height: 416px; /* Proporcion de una carta es w=h*0.72 */
+  filter: drop-shadow(15px 10px 10px #000000);
+}
+
+.top {
+  margin-right: auto;
+  font-size: 60px;
+}
+
+.number {
+  margin: auto;
+  font-size: 100px;
+}
+
+.bot {
+  font-size: 60px;
+  rotate: 180deg;
+  margin-left: auto;
+}
