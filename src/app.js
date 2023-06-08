@@ -43,7 +43,9 @@ window.onload = function() {
     bot.style.color = "red";
   }
 
-  // OPCIONAL
+  // ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+
+  //// OPCIONAL //
 
   // BOTON
   let btn = document
@@ -53,4 +55,15 @@ window.onload = function() {
   // TIMEOUT
 
   window.setTimeout(window.onload, 3000);
+
+  // ANCHO Y ALTO DE CARTA
+
+  // function dimensionCarta() {
+  //   ancho = document.getElementById("ancho-carta").value;
+  //   alto = document.getElementById("alto-carta").value;
+
+  // }
+  const carta = document.getElementById("card");
+  carta.style.height =
+    `"` + document.getElementById("alto-carta").value + `px"`;
 };

@@ -13,7 +13,8 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <!-- OPCIONAL -->
+    <!-- BOTON NEW CARD -->
+
     <div class="container fluid">
       <input
         class="btn  mt-4 btn-dark"
@@ -23,9 +24,37 @@
         onclick="generateNewCard()"
       />
     </div>
-    <!-- FIN OPCIONAL -->
+    <!-- FIN BOTON -->
 
-    <div class="card mx-auto mt-3">
+    <!-- ALTURA Y ANCHURA -->
+    <div class="container fluid mt-4">
+      <div class="dimensiones">
+        <div class="ancho me-3">
+          <label for="ancho">Ancho de carta:</label>
+          <input
+            type="number"
+            name="ancho-carta"
+            id="ancho-carta"
+            min="100"
+            max="800"
+          /><br />
+        </div>
+        <div class="alto ms-3">
+          <label for="alto">Alto de carta:</label>
+          <input
+            type="number"
+            name="alto-carta"
+            id="alto-carta"
+            min="100"
+            max="800"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- FIN ALTURA Y ANCHURA -->
+
+    <div class="card mx-auto mt-3" id="card">
       <div class="top ms-3" id="top">A</div>
       <div class="number " id="mid">B</div>
       <div class="bot me-3" id="bot">C</div>
