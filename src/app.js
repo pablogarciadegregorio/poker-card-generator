@@ -58,12 +58,7 @@ window.onload = function() {
 
   // ANCHO Y ALTO DE CARTA
 
-  // function dimensionCarta() {
-  //   ancho = document.getElementById("ancho-carta").value;
-  //   alto = document.getElementById("alto-carta").value;
-
-  // }
-  const carta = document.getElementById("card");
-  carta.style.height =
-    `"` + document.getElementById("alto-carta").value + `px"`;
+  let carta = document.getElementById("card");
+  carta.style.height = document.getElementById("alto-carta").value;
+  carta.style.width = document.getElementById("ancho-carta").value;
 };
